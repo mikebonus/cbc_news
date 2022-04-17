@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CBCNewsApi</string>
+    <string name="news_name">news_name</string>
+    <string name="type">type</string>
+    <string name="address">address</string>
+    <string name="all_news">all_news</string>
+    <string name="sort_by_video">sort_by_video</string>
+    <string name="results_could_not_be_loaded">Results could not be loaded</string>
+    <string name="retry">RETRY</string>
+
+
+    <string-array name="news_types">
+        <item>All News</item>
+        <item>Video </item>
+    </string-array>
+
+</resources>

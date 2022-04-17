@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cbcnews_bg1"
+    tools:context=".presentation.MainActivity">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cbc_radio_canada" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="News Types"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        tools:layout_editor_absoluteY="145dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:text="SELECT NEWS TYPE" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_all_news"-->
+    <!--        android:layout_width="180dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:backgroundTint="@color/black"-->
+    <!--        android:text="@string/all_news" />-->
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_sort_by_video"-->
+    <!--        android:layout_width="180dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:backgroundTint="@color/black"-->
+    <!--        android:text="@string/sort_by_video" />-->
+
+</RelativeLayout>

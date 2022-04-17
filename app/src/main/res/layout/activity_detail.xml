@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_image_view12"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tv_text_viewOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_image_view12"
+        android:layout_marginTop="10dp"
+        android:text="TITLE-TO-BE-PUBLISHED"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_text_viewTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_text_viewOne"
+        android:layout_marginTop="10dp"
+        android:text="TYPE-TO-BE-PUBLISHED"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_text_viewThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_text_viewTwo"
+        android:layout_marginTop="10dp"
+        android:text="DATE-TO-BE-PUBLISHED"
+        android:textStyle="bold" />
+
+</RelativeLayout>
