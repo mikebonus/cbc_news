@@ -19,10 +19,14 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    /** 'mapping-file' ---> <PROJECT-VIEW> -> <APP> --> <BUILD> -->
+     <OUTPUTS> --> <MAPPING> --> <RELEASE> --> mapping.txt: */
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true           // optimizes the code (remove unused classes / functions / libraries + obfuscates the code)
+            shrinkResources true         // shrinks the 'RES'
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
         }
     }
 
