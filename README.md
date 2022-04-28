@@ -40,7 +40,7 @@ Some of the core features of this application are as follows <b> </br> [SCREEN-R
 
 Thank you. <br /> <br />
 
-<b> -----------------------------PLEASE CLEAN THE PROJECT + REBUILD THE PROJECT BEFORE running the application--------------------------- </b>
+<b> --------------------PLEASE CLEAN THE PROJECT + REBUILD THE PROJECT BEFORE running the application--------------------- </b>
 
 
 Mike C.  
