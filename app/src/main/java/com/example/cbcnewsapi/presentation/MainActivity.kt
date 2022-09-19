@@ -14,7 +14,7 @@ import com.example.cbcnewsapi.presentation.ui.NewsActivity
 import com.example.cbcnewsapi.presentation.ui.VideoActivity
 import com.example.cbcnewsapi.utils.Extender
 import kotlinx.android.synthetic.main.activity_main.*
-// change made one.... another pull request
+// change made one.... another pull request 3
 class MainActivity : AppCompatActivity() {
 
     val TAG = "TAG"
